@@ -1,0 +1,41 @@
+# ============================================================================
+# AUTOMATED INSIGHT ENGINE - DEPENDENCIES
+# ============================================================================
+
+# Core Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# PDF Generation
+reportlab==4.0.7
+
+# Optional: For real CSV loading
+openpyxl==3.1.2  # For Excel files
+xlrd==2.0.1      # For old Excel format
+
+# Optional: For PowerPoint generation (future enhancement)
+# python-pptx==0.6.23
+
+# Optional: For database connections (future enhancement)
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9  # PostgreSQL
+
+# Optional: For API integration (future enhancement)
+# requests==2.31.0
+# fastapi==0.108.0
+# uvicorn==0.25.0
+
+# Optional: For scheduling (future enhancement)
+# apscheduler==3.10.4
+
+# Development Tools
+jupyter==1.0.0
+ipython==8.18.1
+
+# Testing (optional)
+# pytest==7.4.3
+# pytest-cov==4.1.0
